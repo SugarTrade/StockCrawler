@@ -63,7 +63,7 @@ Stock Crawler for [台灣證券交易所](http://www.twse.com.tw/ch/trading/exch
 ## Run
 
 ```
-python StockAll_dbyd.pi
+python StockAll_dbyd.py
 ```
 
 The Result will be in `stock_all_byday` folder.
