@@ -66,7 +66,13 @@ Stock Crawler for [台灣證券交易所](http://www.twse.com.tw/ch/trading/exch
 python StockAll_dbyd.py
 ```
 
-The Result will be in `stock_all_byday` folder.
+If you **just** upgraded your python from 2 to 3, the older version (i.e. python 2) might still exist. If this is the case, try
+
+```
+python3 StockAll_dbyd.py
+```
+
+If it works, the retrived results will be in `stock_all_byday` folder, even if you interrupt the program.
 
 ## FAQ
 - Why I get the error regarding "urllib.parse"?
