@@ -68,6 +68,16 @@ python StockAll_dbyd.py
 
 The Result will be in `stock_all_byday` folder.
 
+## FAQ
+- Why I get the error regarding "urllib.parse"?
+Check your Python version by typing
+
+```
+python --version
+```
+
+Make sure you have updated to Python 3
+
 ## Change Log
 
 #### 2015/03/30 v0.0.1
